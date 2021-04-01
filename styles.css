@@ -1,0 +1,1082 @@
+.BT_Control
+{
+	width: 40px;
+}
+
+.BT_Control img
+{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.BT_Name
+{
+	text-align: left;
+}
+
+.BT_Price
+{
+	text-align: right;
+}
+
+.BT_Count
+{
+	text-align: left;
+}
+
+tr.Summary td
+{
+	font-weight: bold;
+}
+
+table.BasketTable
+{
+	border: 1px solid white;
+	font-size: 12px; 
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	
+}
+
+table.BasketTable td
+{
+	text-align: inherit;
+}
+
+table.BasketTable tr.Summary td
+{
+	font-weight: bold;
+}
+
+.HeaderPhone
+{
+	font-size: 32px; 
+	color: white; 
+	font-weight: bold;
+}
+
+.OrderByPhone
+{
+	font-size: 16px; 
+	color: black; 
+	text-transform: uppercase;
+}
+
+.ItemPrice
+{
+	font-size: 16px;
+	text-align: center;
+	border-bottom: 1px dotted gray;
+	padding-bottom: 10px;
+}
+
+.ItemOldPrice
+{
+	text-decoration: line-through;
+	font-size: 14px;
+}
+
+.ItemNewPrice
+{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+}
+
+.Disclaimer
+{
+	padding-top: 10px;
+	color: white;
+	font-size: 10px;
+}
+
+a.Buy
+{
+	display: block;
+	width: 150px;
+	height: 26px;
+	line-height: 26px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.ItemInfoVendor
+{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+
+.ItemInfoDiscount
+{
+	position: absolute;
+	left: -40px;
+	top: -15px;
+}
+
+.ItemPicture
+{
+	position: relative;
+	width: 480px; 
+	padding: 20px; 
+	background-color: white; 
+	text-align: center;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+
+.ItemDescription
+{
+	font-size: 12px;
+	padding: 10px;
+	border: 1px solid white; 
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.ItemDescription table td
+{
+	padding: 2px;
+}
+
+.ItemDescription table td p
+{
+	margin: 0px;
+	padding: 0px;
+	text-indent: 0px;
+}
+
+.CategoryDescription
+{
+	font-size: 11px; 
+	border: 1px solid white; 
+	padding: 10px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+
+
+section.Actions h1
+{
+	color: white;
+	font-size: 16px;
+}
+
+section.Actions h2
+{
+	color: white;
+	font-size: 14px;
+}
+
+div.Shop
+{
+	background-image: url("");
+	background-position: bottom left;
+	padding-bottom: 29px;
+}
+
+div.Shop p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+section.Shops h1
+{
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	background-color: #EA6D0D;
+	font-family: "Arial Narrow", Arial;
+	font-weight: normal;
+	margin: 0px;
+	padding: 10px;
+}
+
+section.Actions table
+{
+	margin: 5px;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+
+section.Actions table td
+{
+	border: 1px gray solid;
+	padding: 5px;
+}
+
+
+a,
+a:hover,
+a:visited 
+{
+	color: #2751E8;
+}
+
+form.ContactForm label
+{
+	font-size: 13px;
+	margin-left: 6px;
+}
+
+form.ContactForm table
+{
+	width: 100%;
+}
+
+form.ContactForm table td
+{
+	width: 50%;
+	padding: 0px;
+}
+
+form.ContactForm table td[colspan="2"]
+{
+	width: 100%;
+}
+
+form.ContactForm table td input,
+form.ContactForm table td textarea
+{
+	font-size: 14px;
+	font-family: "Arial Narrow", Arial;
+	margin: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px;
+	border: none 0px black;
+}
+
+form.ContactForm table td input
+{
+	width: 90%;
+}
+
+form.ContactForm table td input#Kaptcha
+{
+	width: 100px;
+	font-size: 24px;
+	margin: 0px;
+}
+
+form.ContactForm table td textarea
+{
+	width: 510px;
+	height: 100px;
+	resize: none;
+	overflow: auto;
+}
+
+img#KaptchaImg
+{
+	vertical-align: bottom;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+input#Submit,
+input#FormOrder
+{
+	background-color: transparent;
+	background-image: url("menuplate.png");
+	width: 184px;
+	height: 37px;
+	color: white;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+input#Submit:hover
+{
+	text-decoration: underline;
+}
+
+div#MessageText
+{
+	font-size: 12px;
+	color: red;
+}
+
+
+
+a:focus, a:active, input:focus, input:active {outline: none;}
+img{	border: none black 0px;}
+
+
+section.LeftSection nav div.SubItems
+{
+	width: 200px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 2px solid #2F2C2A;
+	position: absolute;
+	left: 190px;
+	top: 0px;
+	
+	background-color: #EA6D0D;
+	
+	z-index: 20;
+	
+	display: none;
+}
+
+.LeftSection  nav div.SubItems a
+{
+	font-family: "Arial Narrow", Arial;
+	display: block;
+	width: auto;
+	height: auto;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 12px;
+	margin: 10px;
+}
+
+.LeftSection  nav div.SubItems a:hover
+{
+	text-decoration: underline;
+}
+
+.LeftSection  nav div.SubItems img
+{
+	position: absolute;
+	left: -10px;
+	top: 6px;
+}
+
+
+			
+
+.PaySystems
+{
+	background-color: white;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);		
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.PaySystems img
+{
+
+	display: block;
+	margin: auto;
+}
+
+
+.MainPageText ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	margin-left: 0em;
+}
+
+.MainPageText ul li
+{
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-position: 0 0.7em;
+	padding-left: 14px; 
+}
+
+
+.MainPageText
+{
+	font-family: "Arial Narrow", Arial;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.MainPageText p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-indent: 2em;
+}
+
+
+.BasketPlate
+{
+	text-align: justify;
+	background-color: #9e9e9d;
+	padding: 10px;
+	padding-bottom: 10px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);		
+}
+
+.BasketPlate h1
+{
+	margin: 0px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+
+.ActionGoods
+{
+	text-align: justify;
+	background-color: #9e9e9d;
+	padding: 10px;
+	padding-bottom: 0px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);		
+	
+}
+
+.ActionGoods .ActionGood
+{
+	position: relative; 
+	background-image: url("goodplate_bkg.png"); 
+	height: 120px; 
+	width: 120px; 
+	overflow: hidden; 
+	display: inline-block;
+
+	margin-bottom: 10px;
+}
+
+.ActionGoods .ActionGood a .Header
+{
+	text-decoration: none;
+}
+
+.ActionGoods .ActionGood a:hover .Header
+{
+	text-decoration: underline;
+}
+
+
+.ActionGoods .ActionGood img
+{
+	position: absolute; 
+	bottom: 30px; 
+	left: 0px;
+}
+
+.ActionGoods .ActionGood img.GoodPlate
+{
+	bottom: 0px; 
+}
+
+.ActionGoods .ActionGood .Header
+{
+	position: absolute;
+	left: 2px;
+	right: 2px;
+	top: 2px;
+	color: black;
+	font-size: 10px;
+	line-height: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Arial Narrow", Arial;
+}
+
+.ActionGoods .ActionGood .OldPrice
+{
+	position: absolute;
+	left: 10px;
+	width: 50px;
+	bottom: 15px;
+	height: 10px;
+	color: white;
+	font-size: 12px;
+	text-decoration: line-through;
+	text-align: right;
+}
+
+.ActionGoods .ActionGood .NewPrice
+{
+	position: absolute;
+	width: 30px;
+	right: 10px;
+	bottom: 17px;
+	height: 10px;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
+
+
+
+.CenterSection
+{
+	padding: 0 10px 0 10px;
+	width: 540px;
+	float: left;
+}
+
+
+body
+{
+	background-image: url("bkg.png");
+	background-repeat: repeat;
+	font-family: Arial, Verdana;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+}
+
+div.Wrapper
+{
+	background-image: url("header.png");
+	background-repeat: no-repeat;
+	
+	margin: 10px auto 0px auto;
+	
+	width: 1024px;
+}
+
+header
+{
+	position: relative;
+	height: 120px;
+}
+
+header img.Logo
+{
+	height: 80px; 
+	width: 300px; 
+	position: absolute; 
+	left: 40px; 
+	top: 20px;
+}
+
+header .WorkTime
+{
+	color: white;
+	text-align: right;
+	padding-top: 10px;
+	font-size: 16px;
+
+	font-weight: bold;
+	
+	width: 680px;
+	float: left;
+}
+
+
+header .Contacts
+{
+	text-align: right;
+	width: 310px;
+	float: right;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+header .Contacts a
+{
+	text-decoration: none;
+}
+
+
+
+header .SiteAction1
+{
+	font-size: 12px; 
+	color: #5a0000; 
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+
+header .SiteAction2
+{
+	font-size: 12px; 
+	color: #ffffff; 
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+
+
+nav.TopMenu
+{
+	margin-top: 10px;
+	height: 50px;
+	padding-top: 14px;
+	font-size: 18px;
+	margin-left: 46px;
+	margin-right: 50px;
+	color: white;
+}
+
+a.Basket
+{
+	color: white;
+	text-decoration: none;
+	display: block; 
+	float: right; 
+	width: 150px;
+}
+
+a.Basket img
+{
+	position: relative; 
+	top: -10px;
+}
+
+a.Basket div
+{
+	width: 100px; 
+	float: right;
+}
+
+
+
+a.Basket:hover div
+{
+	text-decoration: underline;
+}
+
+
+nav.TopMenu .Divider
+{
+	color: white;
+	text-decoration: none;
+	background-image: url("navdivider.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+nav.TopMenu a:hover
+{
+	text-decoration: underline;
+}
+
+nav.TopMenu .Search
+{
+	background-image: url("searchfield.png"); 
+	background-position: right center; 
+	background-repeat: no-repeat;
+	display: inline;
+	width: 240px;
+}
+
+nav.TopMenu .Search input.SubmitSearch
+{
+	display: none;
+}
+
+nav.TopMenu .Search input
+{
+	display: inline;
+	width: 100px;
+	margin-right: 7px;
+	margin-top: 2px;
+	border: none;
+}
+
+.CenterArea
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+
+.LeftSection
+{
+	width: 184px;
+	float: left;
+}
+
+.LeftSection nav
+{
+	position: relative;
+}
+
+
+.LeftSection nav a
+{
+	display: block;
+	width: 184px;
+	height: 37px;
+	background-image: url("menuplate.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 11px;
+	line-height: 34px;
+	font-weight: bold;
+}
+
+.LeftSection a:hover
+{
+	text-decoration: underline;
+}
+
+.LeftSection aside.Actions
+{
+	background-color: #484848;
+	color: white;
+}
+
+.LeftSection aside.Actions
+{
+	background-color: #484848;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 174px;
+	font-size: 14px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);
+
+}
+
+.LeftSection aside.Actions h1
+{
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #e0b300;
+	text-align: center;
+}
+
+.LeftSection aside.Actions a
+{
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #e0b300;
+	font-style: italic;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.LeftSection aside.Actions a:hover
+{
+	text-decoration: underline;
+}
+
+.LeftSection aside.Suppliers
+{
+	background-color: #fff;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 174px;
+	font-size: 14px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);
+
+}
+
+.Suppliers
+{
+	text-align: center;
+}
+.Suppliers img
+{
+	display: inline;
+}
+
+
+.RightSection
+{
+	float: right;
+	width: 178px;
+	height: 100px;
+}
+
+.RightSection address
+{
+	text-align: center;
+	background-color: #484848;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);
+
+	font-size: 12px;
+	color: white;
+	font-style: normal;
+	padding-bottom: 20px;
+	
+	margin-bottom: 10px;
+	
+	
+}
+
+.RightSection address img
+{
+	margin-bottom: 10px;
+}
+
+
+.RightSection address div.Header
+{
+	margin: 0px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+	padding: 5px;
+
+	font-weight: normal;
+	font-size: 14px;
+	
+	background-color: #ea6d0d;
+}
+
+
+footer
+{
+	background-color: #484848;
+	clear: both;
+	color: white;
+	height: 10px;
+	font-size: 12px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+footer a,
+footer a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+footer a:hover
+{
+	text-decoration: underline;
+}
+
+footer a.Hidden
+{
+	cursor: text;
+	text-decoration: none;
+}
+footer a.Hidden:hover
+{
+	cursor: text;
+	text-decoration: none;
+}
+
+
+
+footer div.Rights
+{
+	float: left;
+}
+footer div.Year
+{
+	float: right;
+}
+
+
+
+
+
+
+/*
+	НАЧАЛО - Для фотоальбомов, вставленных в текст
+*/
+
+
+
+.AlbumSliderWrapper
+{
+	height: 125px;
+	width: 100%; 
+	background-color: white;
+	overflow: hidden;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 0 10px 0;
+	
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+	
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);	
+	
+	position: relative;
+	
+	padding: 10px 0px 10px 0px;	
+}
+
+.AlbumSliderWrapper_
+{
+	width: 100%; 
+	border: none; 
+	position: relative; 
+	overflow: hidden;
+}
+
+a.AlbumSliderLeft
+{
+	position: absolute; 
+	left: 0px;
+	z-index: 10;
+}
+
+a.AlbumSliderRight
+{
+	position: absolute; 
+	right: 0px;
+	z-index: 10;
+}
+
+a.AlbumSliderLeft img,
+a.AlbumSliderRight img
+{
+	display: block; 
+}
+
+.AlbumSlider
+{
+	position: absolute;
+	left: 0px;
+}
+
+.AlbumSlider img
+{
+	float: left;
+	border: 0px none gray;
+}
+
+
+
+.AlbumBanner
+{
+	position:relative;
+}
+
+.AlbumBanner img
+{
+	display: block; 
+	overflow: hidden; 
+	position: absolute; 
+	left:0px; 
+	top:0px; 
+	margin:0px; 
+	bottom:0px; 
+	border: none; 
+	vertical-align: middle;
+}
+
+/*
+	КОНЕЦ - Для фотоальбомов, вставленных в текст
+*/
+
+.zoomin
+{
+	cursor : url(""), pointer;
+}
